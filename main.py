@@ -33,16 +33,6 @@ class StakeHolder:
         self.valorFinal = 0
         self.getValorFinal()
 
-    # @property
-    # def valores(self):
-    #     return self.valores
-    #
-    #
-    # @valores.setter
-    # def valores(self, index, valor):
-    #     self.valores[index] = valor
-    #     self.getValorFinal()
-
     def getValorFinal(self):
         mid = 0
         for val in self.valores:
