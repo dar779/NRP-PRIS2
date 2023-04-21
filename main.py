@@ -147,7 +147,6 @@ while True:
 
         # Actualizar la valoracion del stakeholder
         stakeholders[stakeholder-1].valores[stakeholder_valorado-1] = valoracion
-        #stakeholders[stakeholder-1][stakeholder_valorado-1] = valoracion
 
     elif opcion == 4:
         # Valorar un requisito
